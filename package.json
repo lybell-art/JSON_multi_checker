@@ -1,0 +1,34 @@
+{
+  "name": "json_multi_checker",
+  "version": "1.0.0",
+  "description": "json multi checker for 66....",
+  "main": "dist/script.js",
+  "scripts": {
+    "build": "rollup -c builder/rollup.config.production.js --environment NODE_ENV:production",
+    "watch": "rollup -c builder/rollup.config.dev.js --watch --environment NODE_ENV:development"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Lybell",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "jszip": "^3.10.0",
+    "mobx": "^6.6.0",
+    "mobx-react-lite": "^3.4.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

@@ -1,0 +1,43 @@
+p {
+	margin: 0px;
+	margin-bottom: 0.2rem;
+}
+
+#importFile
+{
+	width: 200px;
+	height: 60px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #03dac6;
+	cursor: pointer;
+}
+
+#result
+{
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border: 2px solid #333;
+	box-shadow: inset 4px 4px 5px #0002
+}
+
+.valid
+{
+	color: #018786;
+}
+
+.invalid
+{
+	color: #B00020;
+}
+
+.reason
+{
+	font-size: 0.75em;
+}
